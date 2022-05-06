@@ -1,18 +1,44 @@
 <div>
-  <h1>Contact</h1>
+  <p class="fs-1">Contact</p>
   <p>Vivamus ante nulla, ultricies vitae velit eget, laoreet volutpat metus. Nunc in tristique urna. Praesent dignissim erat leo, a pretium nunc suscipit eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac tortor ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam mattis congue blandit. Nulla facilisi. Nunc dignissim in purus sit amet ultricies.</p>
-  <form>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Your E-mail</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      
+  
+  <form action="#">
+    <div class="row justify-content-center content-fluid">
+      <div class="row col-6 p-3 mb-2 bg-light text-dark border border-light">
+      <table>
+      <tr>
+        <td>
+          <label for="floatingInput">Your E-mail</label>
+        </td>
+        <td>
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        </td>
+      </tr>
+      <td>
+        <label for="floatingTextarea">Comments</label>
+      </td>
+      <td>
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+      </td>
+      <tr>
+        <td>
+
+        </td>
+      <td>
+      <div class="row col-12 justify-content-end" >
+        <button type="submit" class="row col-2 btn btn-primary">Sign in</button>
+      </div>
+    </td>
+  </tr>
     </div>
-    <div class="form-floating mb-3">
-      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-      <label for="floatingTextarea">Comments</label>
-    </div>
-       <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+
+
+  </table>
+  </div>
 </div>
+    
+</form>
+  
+
 
 
